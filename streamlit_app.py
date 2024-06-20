@@ -3,10 +3,6 @@ import pandas as pd
 import math
 from pathlib import Path
 # -------
-st.set_page_config(page_title="My Streamlit App")
-
-st.write("Hello, world!")
-
 # Adding CORS headers
 st.experimental_set_cors_headers({
     "Access-Control-Allow-Origin": "*",
