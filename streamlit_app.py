@@ -2,14 +2,7 @@ import streamlit as st
 import pandas as pd
 import math
 from pathlib import Path
-# -------
-# Adding CORS headers
-st.experimental_set_cors_headers({
-    "Access-Control-Allow-Origin": "*",
-    "Access-Control-Allow-Methods": "GET, POST",
-    "Access-Control-Allow-Headers": "Content-Type"
-})
-# -------
+
 # Set the title and favicon that appear in the Browser's tab bar.
 st.set_page_config(
     page_title='GDP Dashboard',
