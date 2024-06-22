@@ -150,10 +150,3 @@ for i, country in enumerate(selected_countries):
             delta_color=delta_color
         )
 
-
-
-import streamlit as st
-import streamlit.components.v1 as components
-
-
-components.html(html_content, height=600)
