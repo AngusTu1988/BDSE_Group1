@@ -9,8 +9,9 @@ import plotly.express as px
 
 # Set page configuration
 st.set_page_config(
-    page_title="Custom Width Streamlit App",
+    page_title="Intro",
     layout="wide",
+    initial_sidebar_state="auto",
 )
 
 # Inject custom CSS to control the width
@@ -25,6 +26,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 st.title('Introduction')
 
@@ -342,6 +344,12 @@ with tab3:
         # Display the chart in Streamlit
         
         st.plotly_chart(fig1)
+
+
+
+
+
+
 
 
 
