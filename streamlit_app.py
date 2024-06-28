@@ -12,7 +12,9 @@ st.set_page_config(
     page_title="Intro",
     layout="wide",
     initial_sidebar_state="auto",
+    
 )
+
 
 # Inject custom CSS to control the width
 st.markdown(
@@ -22,11 +24,23 @@ st.markdown(
         max-width: 800px;
         margin: auto;
     }
+    /* 調整 radio 按鈕容器的大小和位置 */
+    .stRadio {
+        margin-top: 50px; /* 調整頂部間距 */
+        margin-left: 20px; /* 調整左側間距 */
+    }
+    /* 調整 radio 按鈕的大小 */
+    .stRadio div {
+        font-size: 20px; /* 調整文字大小 */
+        line-height: 1.5; /* 調整行高 */
+    }
     </style>
     """,
-    unsafe_allow_html=True
+    unsafe_allow_html=True,
+    
+    
+   
 )
-
 
 st.title('Introduction')
 
